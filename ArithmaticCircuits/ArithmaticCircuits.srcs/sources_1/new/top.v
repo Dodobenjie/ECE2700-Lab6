@@ -34,7 +34,7 @@ wire       cout;
 assign a = sw[3:0];
 assign b = sw[7:4];
 
-ripple_carry_adder uut (
+carry_select_adder uut (
     .a(a),
     .b(b),
     .cin(btnC),

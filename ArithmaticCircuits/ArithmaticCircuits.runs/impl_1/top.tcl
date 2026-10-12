@@ -107,6 +107,7 @@ set rc [catch {
   create_msg_db write_bitstream.pb
   set_param general.usePosixSpawnForFork 1
   set_param chipscope.maxJobs 3
+  set_param xicom.use_bs_reader 1
   set_param runs.launchOptions { -jobs 6  }
   open_checkpoint top_routed.dcp
   set_property webtalk.parent_dir C:/Users/Dawson/Desktop/School/ECE2700/Lab6/Lab6Repository/ArithmaticCircuits/ArithmaticCircuits.cache/wt [current_project]

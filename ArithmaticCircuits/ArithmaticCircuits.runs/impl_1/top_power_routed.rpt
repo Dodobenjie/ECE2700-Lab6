@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
-| Date             : Mon Oct 12 15:18:52 2026
+| Date             : Mon Oct 12 15:57:40 2026
 | Host             : PC running 64-bit major release  (build 9200)
 | Command          : report_power -file top_power_routed.rpt -pb top_power_summary_routed.pb -rpx top_power_routed.rpx
 | Design           : top
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 8.652        |
+| Total On-Chip Power (W)  | 8.087        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 8.530        |
-| Device Static (W)        | 0.122        |
+| Dynamic (W)              | 7.971        |
+| Device Static (W)        | 0.115        |
 | Effective TJA (C/W)      | 5.0          |
-| Max Ambient (C)          | 41.7         |
-| Junction Temperature (C) | 68.3         |
+| Max Ambient (C)          | 44.6         |
+| Junction Temperature (C) | 65.4         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -52,12 +52,12 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.025 |        6 |       --- |             --- |
-|   LUT as Logic |     0.025 |        4 |     20800 |            0.02 |
-| Signals        |     0.088 |       15 |       --- |             --- |
-| I/O            |     8.417 |       14 |       106 |           13.21 |
-| Static Power   |     0.122 |          |           |                 |
-| Total          |     8.652 |          |           |                 |
+| Slice Logic    |     0.029 |        7 |       --- |             --- |
+|   LUT as Logic |     0.029 |        5 |     20800 |            0.02 |
+| Signals        |     0.089 |       16 |       --- |             --- |
+| I/O            |     7.854 |       14 |       106 |           13.21 |
+| Static Power   |     0.115 |          |           |                 |
+| Total          |     8.087 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -67,9 +67,9 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.200 |       0.149 |      0.051 |       NA    | Unspecified | NA         |
-| Vccaux    |       1.800 |     0.324 |       0.307 |      0.017 |       NA    | Unspecified | NA         |
-| Vcco33    |       3.300 |     2.373 |       2.372 |      0.001 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.199 |       0.154 |      0.045 |       NA    | Unspecified | NA         |
+| Vccaux    |       1.800 |     0.303 |       0.286 |      0.016 |       NA    | Unspecified | NA         |
+| Vcco33    |       3.300 |     2.214 |       2.213 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -134,7 +134,7 @@ Table of Contents
 +------+-----------+
 | Name | Power (W) |
 +------+-----------+
-| top  |     8.530 |
+| top  |     7.971 |
 +------+-----------+
 
 

@@ -57,6 +57,8 @@ if {$::dispatch::connected} {
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param general.usePosixSpawnForFork 1
+set_param chipscope.maxJobs 3
+set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35tcpg236-1
 
@@ -74,6 +76,7 @@ set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib {
+  C:/Users/Dawson/Desktop/School/ECE2700/Lab6/Lab6Repository/ArithmaticCircuits/ArithmaticCircuits.srcs/sources_1/new/carry_select_adder.v
   C:/Users/Dawson/Desktop/School/ECE2700/Lab6/Lab6Repository/ArithmaticCircuits/ArithmaticCircuits.srcs/sources_1/new/full_adder.v
   C:/Users/Dawson/Desktop/School/ECE2700/Lab6/Lab6Repository/ArithmaticCircuits/ArithmaticCircuits.srcs/sources_1/new/half_adder.v
   C:/Users/Dawson/Desktop/School/ECE2700/Lab6/Lab6Repository/ArithmaticCircuits/ArithmaticCircuits.srcs/sources_1/new/ripple_carry_adder.v
