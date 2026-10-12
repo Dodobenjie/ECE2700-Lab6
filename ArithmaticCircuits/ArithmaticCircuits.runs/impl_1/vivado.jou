@@ -3,11 +3,11 @@
 # SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
 # IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
 # SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
-# Start of session at: Mon Oct 12 16:00:18 2026
-# Process ID         : 31868
+# Start of session at: Mon Oct 12 16:26:18 2026
+# Process ID         : 23440
 # Current directory  : C:/Users/Dawson/Desktop/School/ECE2700/Lab6/Lab6Repository/ArithmaticCircuits/ArithmaticCircuits.runs/impl_1
-# Command line       : vivado.exe -log top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
-# Log file           : C:/Users/Dawson/Desktop/School/ECE2700/Lab6/Lab6Repository/ArithmaticCircuits/ArithmaticCircuits.runs/impl_1/top.vdi
+# Command line       : vivado.exe -log carry_select_adder_16bit.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source carry_select_adder_16bit.tcl -notrace
+# Log file           : C:/Users/Dawson/Desktop/School/ECE2700/Lab6/Lab6Repository/ArithmaticCircuits/ArithmaticCircuits.runs/impl_1/carry_select_adder_16bit.vdi
 # Journal file       : C:/Users/Dawson/Desktop/School/ECE2700/Lab6/Lab6Repository/ArithmaticCircuits/ArithmaticCircuits.runs/impl_1\vivado.jou
 # Running On         : PC
 # Platform           : Windows 11
@@ -19,6 +19,6 @@
 # Host memory        : 34227 MB
 # Swap memory        : 51539 MB
 # Total Virtual      : 85767 MB
-# Available Virtual  : 53532 MB
+# Available Virtual  : 53807 MB
 #-----------------------------------------------------------
-source top.tcl -notrace
+source carry_select_adder_16bit.tcl -notrace
