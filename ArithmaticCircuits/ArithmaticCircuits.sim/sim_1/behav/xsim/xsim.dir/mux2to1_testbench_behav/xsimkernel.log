@@ -2,3 +2,6 @@ Running: xsim.dir/mux2to1_testbench_behav/xsimk.exe -simmode gui -wdb mux2to1_te
 Design successfully loaded
 Design Loading Memory Usage: 18736 KB (Peak: 18736 KB)
 Design Loading CPU Usage: 77 ms
+Simulation completed
+Simulation Memory Usage: 19652 KB (Peak: 19652 KB)
+Simulation CPU Usage: 109 ms
